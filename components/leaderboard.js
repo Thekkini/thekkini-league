@@ -19,10 +19,11 @@ export default function LeaderBoard({ data }) {
             </thead>
             {/* .sort((a, b) => a.item.timeM > b.item.timeM ? 1:-1). */}
             <tbody className='bg-white text-black'>
-                {data.map(item => (
+                {[...data].sort((a, b) => a.points > b.points ? -1 : 1).map((item, index) => (
                     <>
                         <Teams
                             item={item}
+                            index={index}
                         />
                     </>
                 ))}
