@@ -4,9 +4,9 @@ import Teams from './teams'
 export default function LeaderBoard({ data }) {
     return (
         <table>
-            <thead>
+            <thead className='bg-slate-300 text-black'>
                 <tr className=''>
-                    <th className='px-6'>#</th>
+                    <th className='px-6 py-2'>#</th>
                     <th className='px-6'></th>
                     <th className='px-6'>Team Name</th>
                     <th className='px-6'>MP</th>
