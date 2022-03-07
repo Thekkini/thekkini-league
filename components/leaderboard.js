@@ -6,15 +6,15 @@ export default function LeaderBoard({ data }) {
         <table>
             <thead className='bg-slate-300 text-black'>
                 <tr className=''>
-                    <th className='px-6 py-2'>#</th>
-                    <th className='px-6'></th>
-                    <th className='px-6'>Team Name</th>
-                    <th className='px-6'>MP</th>
-                    <th className='px-6'>W</th>
-                    <th className='px-6'>D</th>
-                    <th className='px-6'>L</th>
-                    <th className='px-6'>GD</th>
-                    <th className='px-6'>PTS</th>
+                    <th className='px-10 py-4'>#</th>
+                    <th className='px-10'></th>
+                    <th className='px-10'>Team Name</th>
+                    <th className='px-10'>MP</th>
+                    <th className='px-10'>W</th>
+                    <th className='px-10'>D</th>
+                    <th className='px-10'>L</th>
+                    <th className='px-10'>GD</th>
+                    <th className='px-10'>PTS</th>
                 </tr>
             </thead>
             {/* .sort((a, b) => a.item.timeM > b.item.timeM ? 1:-1). */}

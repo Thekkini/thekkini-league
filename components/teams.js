@@ -1,7 +1,7 @@
 
 export default function Teams({ item, index }) {
     return (
-        <tr key={item.id} className="p-6 border border-b">
+        <tr key={item.id} className="p-6">
             <td>{index + 1}</td>
             <td className='flex justify-center pr-4 py-4'>
                 <img src={item.clublogo} alt={item.clubname} className="w-auto h-10" />
@@ -16,6 +16,5 @@ export default function Teams({ item, index }) {
             <td>{item.gd}</td>
             <td>{item.points}</td>
         </tr>
-
     )
 }
