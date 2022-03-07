@@ -17,6 +17,7 @@ export default function LeaderBoard({ data }) {
                     <th className='px-6'>PTS</th>
                 </tr>
             </thead>
+            {/* .sort((a, b) => a.item.timeM > b.item.timeM ? 1:-1). */}
             <tbody className='bg-white text-black'>
                 {data.map(item => (
                     <>
